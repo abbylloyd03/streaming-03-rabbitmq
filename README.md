@@ -87,7 +87,7 @@ Each of the version 2 programs include an error as well.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
-- Both of the files that listen for messages need to be closed.
+- Both of the files that listen for messages need to be closed using Ctrl + C. The files that send messages close automatically.
 1. Search GitHub for if __name__ == "__main__": 
 1. How many hits did you get? 40,004,770
 1. Learn and understand this common Python idiom.
