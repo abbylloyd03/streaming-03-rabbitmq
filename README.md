@@ -1,3 +1,5 @@
+# Abby Lloyd, January 28, 2023
+
 # streaming-03-rabbitmq
 
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
@@ -39,7 +41,8 @@ Once it runs and finishes, we can reuse the terminal.
 
 You'll need to fix an error in the program to get it to run.
 Once it runs successfully, will it terminate on its own? How do you know? 
-As long as the process is running, we cannot use this terminal for other commands. 
+- No, it will not terminate on its own. This is evident because it returns the following message: 'Waiting for messages. To exit press CTRL+C
+- As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages
 
@@ -76,15 +79,17 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? 
+- So that it is easier to read and interpret.
 1. Then, define your functions.
 1. Functions are reuable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
-1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+- Both of the files that listen for messages need to be closed.
+1. Search GitHub for if __name__ == "__main__": 
+1. How many hits did you get? 40,004,770
 1. Learn and understand this common Python idiom.
 
 ## Reference
@@ -93,5 +98,8 @@ Each of the version 2 programs include an error as well.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 
 ## Multiple Terminals
+- I toggled between terminals in VS Code. The screenshots of the terminals are below. The first was titled "Python" and the second was titled "bash" on the right side of the screen.
+![Python terminal](Python_terminal.png)
+![Python terminal](bash_terminal.png)
 
-![Mac Example](screenshot.png)
+

@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-28 at 04:03 PM
+
+ This file is running on:    posix Darwin 21.6.0
+ 
+ The Python version is:      3.10.5
+ 
+ The Python interpreter is at: 
+ /opt/miniconda3/envs/sklearn-env/bin/python
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: sklearn-env
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ /opt/miniconda3/envs/sklearn-env
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ /Users/Abby/Documents/44-671 Streaming Data/Module 3/streaming-03-rabbitmq
+ 
+ The absolute path to the data directory is:
+
+ /Users/Abby/Documents/44-671 Streaming Data/Module 3/streaming-03-rabbitmq/
+ 
+ The absolute path to this source directory is:
+
+ /Users/Abby/Documents/44-671 Streaming Data/Module 3/streaming-03-rabbitmq
+ 
+ The absolute path to this file is:
+
+ /Users/Abby/Documents/44-671 Streaming Data/Module 3/streaming-03-rabbitmq/about.py
+ 
+==============================================================
+==============================================================
+
